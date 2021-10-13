@@ -24,6 +24,10 @@ header{
   width: 100%;
 }
 
+header .top-left-bar a{
+  width: 50%;
+}
+
 a{
   text-decoration: none;
 }
@@ -70,7 +74,7 @@ nav .fas, nav .far{
 }
 
 #logo{
-  width: 50%;
+  width: 100%;
   padding: 30px;
   flex-grow: 1;
 }
