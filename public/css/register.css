@@ -1,0 +1,58 @@
+main{
+  display: flex;
+  justify-content: center;
+}
+
+main form {
+  background-color: #FFF;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+main form div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+main form div input{
+  width: 100%;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  height: 32px;
+}
+
+main form div label{
+  margin-bottom: 8px;
+  margin-top: 12px;
+  width: 100%;
+  text-align: left;
+}
+
+.user-type{
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+.categories{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.categories div{
+  width: 50%;
+  flex-direction: row;
+}
+
+.categories div input{
+  height: 20px;
+}
+
+.file-input{
+  margin: 16px 0;
+}
