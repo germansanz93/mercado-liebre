@@ -9,6 +9,7 @@ main form {
   padding: 10px;
   margin: 10px;
   border-radius: 6px;
+  max-width: 500px;
 }
 
 main form div{
@@ -55,4 +56,54 @@ main form div label{
 
 .file-input{
   margin: 16px 0;
+}
+
+.btns{
+  display:flex;
+  flex-direction: row;
+}
+
+.delete-btn{
+  background-color: #c05050;
+  color: #FFF;
+  margin: 10px;
+}
+
+.submit-btn{
+  background-color: var(--Celeste);
+  color: #FFF;
+  margin: 10px;
+}
+
+@media (min-width: 769px) {
+
+  main form{
+    max-width: 760px;
+    padding: 20px 50px;
+  }
+
+  main form div{
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  main form{
+    max-width: 1200px;
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main form h2{
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+
+  main form div{
+    width: 42%;
+  }
 }

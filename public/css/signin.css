@@ -1,0 +1,19 @@
+main form{
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+}
+
+main form div{
+  width: 100%;
+}
+
+main form div input{
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.submit-btn{
+  width: 50%;
+}

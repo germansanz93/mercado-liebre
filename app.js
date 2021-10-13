@@ -25,6 +25,11 @@ app.get("/register", (req, res) => {
   res.sendFile(registerPath);
 })
 
+app.get("/signin", (req, res) =>{
+  const signinPath = path.join(__dirname, '/views/signin.html');
+  res.sendFile(signinPath);
+})
+
 //server start listening
 app.listen(PORT, () => {
   console.log(`Server running at port ${PORT}`);
