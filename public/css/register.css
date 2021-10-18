@@ -69,10 +69,19 @@ main form div label{
   margin: 10px;
 }
 
+.delete-btn:hover{
+  cursor: pointer;
+}
+
 .submit-btn{
   background-color: var(--Celeste);
   color: #FFF;
   margin: 10px;
+}
+
+.submit-btn:hover{
+  background-color: #0022aa;
+  cursor: pointer;
 }
 
 @media (min-width: 769px) {

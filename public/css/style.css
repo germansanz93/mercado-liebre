@@ -125,6 +125,19 @@ nav .fas, nav .far{
 .description{
   font-weight: 100;
   color: var(--Gris-oscuro);
+  visibility: hidden;
+}
+
+article:hover .description{
+  visibility: visible;
+}
+
+.fa-truck{
+  transition: transform linear 0.3s;
+}
+
+article:hover .fa-truck{
+  transform: rotate(-90deg);
 }
 
 .fa-bars{
@@ -221,10 +234,14 @@ footer p{
   color: var(--Gris-oscuro);
 }
 
+footer .fas:hover{
+  color: var(--Azul);
+}
+
 @media (min-width: 361px) {
-  article{
+  main article:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  }
+  } 
 
   form{
     padding-top: 40px;
@@ -247,9 +264,9 @@ footer p{
 }
 
 @media (min-width: 769px) {
-  .description{
+  /* .description{
     display: block;
-  }
+  } */
 
   .nav-items{
     width: 100%;
